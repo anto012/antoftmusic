@@ -72,10 +72,10 @@ async def init():
     except:
         pass
     await Musikku.decorators()
-    LOGGER("Musikku").info("Musikku Music Bot Started Successfully")
+    LOGGER("Musikku").info("Venz Music Bot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("Musikku").info("Stopping Musikku Music Bot! GoodBye")
+    LOGGER("Musikku").info("Stopping Venz Music Bot! GoodBye")
