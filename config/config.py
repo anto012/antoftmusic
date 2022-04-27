@@ -28,7 +28,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "60")
+    getenv("DURATION_LIMIT", "999")
 )  # Remember to give value in Minutes
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
@@ -60,7 +60,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/kenkansaja/Musikku",
+    "https://github.com/eldy020502/venzftmusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Musikku")
 
@@ -69,11 +69,11 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/musikkuchannel"
-)  # Example:- https://t.me/musikkuchannel
+    "SUPPORT_CHANNEL", "https://t.me/venzproject"
+)  # Example:- https://t.me/venzproject
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/musikkugroup"
-)  # Example:- https://t.me/musikkugroup
+    "SUPPORT_GROUP", "https://t.me/justvenzzz"
+)  # Example:- https://t.me/justvenzzz
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -83,7 +83,7 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "5400")
 )  # Remember to give value in Seconds
 
-MUST_JOIN = getenv("MUST_JOIN", "musikkuchannel")
+MUST_JOIN = getenv("MUST_JOIN", "venzproject")
 
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
