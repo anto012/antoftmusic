@@ -1,63 +1,124 @@
-<h1><p align="center"><a>𝙈𝙐𝙎𝙄𝙆  𝙆𝙐</a><p/><h1/>
-<p align="center"><a href="https://github.com/kenkansaja/Musikku"><img src="https://telegra.ph/file/7286ea5b5a2f8dc66e3ed.jpg"width="300"heigh="100" /></a></p>
-
-
-
-ᴍᴜsɪᴋ  ᴋᴜ  ᴀᴅᴀʟᴀʜ  ʀᴇᴘᴏ  ᴄʟᴏɴᴇ  ᴅᴀʀɪ  [ʏᴜᴋᴋɪᴍᴜsɪᴄʙᴏᴛ](https://github.com/TeamYukki/YukkiMusicBot)  ᴛᴀᴘɪ  ʏᴀɴɢ  sᴜᴅᴀʜ  ᴅɪ  ʙᴀʜᴀsᴀ  ɪɴᴅᴏɴᴇsɪᴀᴋᴀɴ  ᴏʟᴇʜ  sᴀʏᴀ,  sᴀʏᴀ  ᴀᴅᴀʟᴀʜ  ᴋᴀɴɢᴇʀ  ʙᴜᴋᴀɴ  ᴄᴏᴅᴇʀ  ᴅᴀɴ  sᴀʏᴀ  ᴍᴀsɪʜ  ᴀᴍᴀᴛɪʀᴀɴ  ᴏᴋᴇʏ
-
-## DEPLOY DI HEROKU
-
-<p align="center"><a href="https://ice-iota.vercel.app/"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300"heigh="100" /></a></p>
-<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=a2Vua2Fuc2FqYS9NdXNpa2t1IE11c2lra3U"><img src="https://img.shields.io/badge/BUAT DIBOT-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300"heigh="100" /></a></p>
-
-
-
-## STRINGS SESSION PYROGRAM
-
-<p align="center"><a href="https://replit.com/@kenkannih/strings-session#main.py"><img src="https://img.shields.io/badge/REPLIT-STRINGS-yellow?style=plastic&logo=replit&logoColor=yellow"width="270" height="40" /></a></p>
+# Venz Ft Yukki
 
 <p align="center">
-<a href="https://t.me/Stringdurhakabot"><img src="https://img.shields.io/badge/STRING-BOT-green?style=plastic&logo=Telegram"width="270" height="40"  /></a>
-<a href="https://t.me/kenkanrobot"><img src="https://img.shields.io/badge/BOT API HASH-DAN APP ID-gold?style=plastic&logo=Telegram&logoColor=yellow"width="270" height="40" /></a>
+  <img src="https://telegra.ph/file/78d150a3ce9488dcaa7cf.jpg"
 </p>
 
-## COMMAND ADMINS 🧑‍✈️
+[Venz Music Bot](https://github.com/eldy020502/venzftyukki) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
 
-- c = adalah singkatan dari pemutaran channel
-- /pause atau /cpause - Menjeda musik yang sedang diputar.
-- /resume atau /cresume- Melanjutkan musik yang dijeda.
-- /mute atau /cmute- Mematikan musik yang diputar.
-- /unmute atau /cunmute- Mengaktifkan musik yang dimatikan.
-- /skip atau /cskip- Lewati musik yang sedang diputar.
-- /stop atau /cstop- Menghentikan pemutaran musik.
-- /shuffle atau /cshuffle- Secara acak mengacak daftar putar yang antri.
+* Youtube, Soundcloud, Apple Music, Spotify, Resso and Telegram Audios & Videos support.
+* Written from scratch, making it stable and less crashes.
+* Attractive thumbnails, fonts and images,  making experience more user-friendly and interactive.
+* Loop, Seek, Shuffle, Specific Skip, Playlists etc support
+* Global, Users, Chats Top 10 played tracks stats
+* Multi-Language support
 
-## COMMAND MEMBERS 👥
-- /play atau /vplay atau /cplay - Bot akan mulai memainkan kueri yang Anda berikan pada obrolan suara.
 
-- /stream atau /cstream - Streaming tautan langsung di obrolan suara.
+# 🔗 An Overview
 
-- /channelplay [Nama pengguna atau id obrolan] atau [Nonaktifkan] - Hubungkan saluran ke grup dan streaming musik di obrolan suara saluran dari grup Anda.
-## DEPLOY VPS
-Nih kak cara deploy di vps
-- `git clone https://github.com/kenkansaja/Musikku`
-- `cd Musikku`
-- `sudo bash setup`
-- `bash start`
+Here's a brief high-level overview of the Venz Music Bot:
 
-## ORIGINAL REPO
-> Terimakasih untuk [@NotReallyShikhar](https://github.com/NotReallyShikhar) dan [Team Yukki](https://github.com/TeamYukki) Untuk sumber code nya, saya hanyalah kangger oke.
+This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls) . Pyrogram is a modern, elegant and asynchronous MTProto API framework.
 
-- [YukkiMusicBot](https://github.com/TeamYukki/YukkiMusicBot) - Original Repo
+* For database, Venz uses the MongoDB to store data and keys. [MongoDB](https://www.mongodb.com/) is a document database with the scalability and flexibility that you want with the querying and indexing that you need.
+* Project uses the bs4 web scrapping for getting many platform details. [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is a Python library for pulling data out of HTML and XML files.
+* The project uses the font [`Raleway`](../assets/font2.ttf) as its main font for the thumbnails.
+* The projects uses attractive images and icons which you can get in [assets](../assets/) directory.
 
-## CONTRIBUTOR
-Terimakasih
-- [@NotReallyShikhar](https://github.com/NotReallyShikhar) - Dev
-- [@kenkansaja](https://github.com/kenkansaja) - Kanger
+For more information on the technologies that power the Yukki Music Bot, check out the [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/).
 
-### Mari terhubung!
-<p>
-    <a href="https://t.me/kenkanasw" target="blank"><img src="https://img.shields.io/badge/@kenkanasw-30302f?style=flat&logo=telegram"width="254" height="52"/></a>
-    <a href="https://t.me/musikkugroup" target="blank"><img src="https://img.shields.io/badge/MUSIK KU GROUP-black?style=flat&logo=telegram"width="319" height="52"/></a>
-    <a href="https://t.me/musikkuchannel" target="blank"><img src="https://img.shields.io/badge/MUSIK KU CHANNEL-gold?style=flat&logo=telegram"width="332" height="49"/></a>
-</p>
+
+
+# ⚡️ Getting Started
+
+### Before deploying Venz Music Bot , please have a look towards [all available config vars](../config/README.md) , also please check [all available commands](../strings/command.yml) of the project.
+
+> If you want to start working with Venz Music Bot you can either fork or import repo .
+> The official [documentation site](https://notreallyshikhar.gitbook.io/yukkimusicbot/) contains a lot of information. The best place to start is from the deployment section.
+> If you'd like to talk to us, join us on our [Telegram Group](https://t.me/justvenzzz)
+
+
+## 🖇 Prerequisites
+
+> In order to avoid conflicts in your project, you must have/installed
+
+- [Python3.9](https://www.python.org/downloads/release/python-390/)
+- [Telegram API Key](https://docs.pyrogram.org/intro/setup#api-keys)
+- [Telegram Bot Token](https://t.me/botfather)
+- [MongoDB URI](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/mongodb)
+- [Pyrogram String Session](https://t.me/venzstringbot)
+
+
+## 🖇 Generating Pyrogram String Session
+
+- Generate a Pyrogram String Session via [Replit](https://replit.com/@NotReallyShikhar/Yukki-Music-String-Gen)
+
+- Generate a Pyrogram String Session via [Telegram String Generation Bot](https://t.me/venzstringbot)
+
+
+## 🚀 Heroku Deployment
+
+<h4>Click the button below to deploy Venz on Heroku!</h4>    
+<a href="https://heroku.com/deploy/"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
+
+> Want detailed explanation of Heroku Deployment? [Click Here](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/heroku)
+
+
+<img src="https://telegra.ph/file/6b75b57da50ef1183fcdc.jpg" align="center">
+
+
+## 🏷 Support
+
+Reach out to the maintainer at one of the following places:
+
+- [GitHub Issues](https://github.com/eldy020502/venzftyukki/issues/new?assignees=&labels=question&template=SUPPORT_QUESTION.md&title=support%3A+)
+- Contact options listed on [this GitHub profile](https://github.com/eldy020502)
+- [Telegram Support](https://t.me/justvenzzz)
+
+## 🎗 Project assistance
+
+If you want to say **thank you** or/and support active development of VenzMusicBot:
+
+- Add a [GitHub Star](https://github.com/eldy020502/venzftyukki) to the project.
+- Fork the Repo :)
+- Write interesting articles about the project on [Dev.to](https://dev.to/), [Medium](https://medium.com/) or your personal blog.
+
+Together, we can make VenzMusicBot **better**!
+
+## ✍🏻 Contributing
+
+First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
+
+Please read [our contribution guidelines](CONTRIBUTING.md), and thank you for being involved!
+
+## 👨🏻‍💻 Authors & contributors
+
+The original setup of this repository is by [Team Venz](https://github.com/venzftyukki).
+
+For a full list of all authors and contributors, see [the contributors page](https://github.com/eldy020502/venzftyukki/contributors).
+
+## ⚠️ Security
+
+VenzMusicBot follows good practices of security, but 100% security cannot be assured. YukkiMusicBot is provided **"as is"** without any **warranty**. Use at your own risk.
+
+For more information and to report security issues, please refer to our [`SECURITY.md`](SECURITY.md)
+
+
+## 🗂 License
+
+This project is licensed under the **GNU General Public License v3**. All designs were created by [@NotReallyShikhar](https://github.com/NotReallyShikhar) .
+
+See [LICENSE](../LICENSE) for more information.
+
+## 📑 Acknowledgement
+
+Special thanks to these amazing projects/people which/who help power Yukki Music Bot:
+
+- [Pyrogram](https://github.com/pyrogram/pyrogram)
+- [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
+- [CallsMusic Team](https://github.com/Callsmusic)
+- [TheHamkerCat](https://github.com/TheHamkerCat)
+- [Charon Baglari](https://github.com/XCBv021)
+
+
+Reminder that you are great, you are enough, and your presence is valued. If you are struggling with your mental health, please reach out to someone you love and consult a professional.
